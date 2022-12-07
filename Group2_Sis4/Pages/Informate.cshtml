@@ -1,0 +1,16 @@
+﻿@page
+@model Group2_Sis4.Pages.InformateModel
+@{
+}
+
+@foreach (var elementi in Model.Informatat)
+{
+    <div class="border">
+        <div class="border">
+            @elementi.Emri
+        </div>
+        <div class="border">
+            @elementi.Pershkrimi
+        </div>
+    </div>
+}
